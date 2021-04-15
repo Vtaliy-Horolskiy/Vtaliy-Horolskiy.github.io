@@ -1,0 +1,196 @@
+
+.wrap {	
+	width: 100%;
+	font-family: 'Lato', 'Arial', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header-container {
+    position: relative;
+    box-shadow: 5px 5px 30px rgba(112, 112, 112, 0.1);
+}
+
+
+.main-content {
+	padding: 15px;
+	width: 100%;
+	max-width: 1170px;
+	padding-bottom: 64px;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.link {
+	-webkit-appearance:none; 
+	color: #4F4F4F;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 132%;
+	text-align: left;
+}
+
+
+.description {
+	width: 98%;
+	margin-top: 70px;
+	margin-bottom: 49px;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 144%;
+	color: #1F1F1F;
+}
+
+.boosik-header {
+	margin-bottom: 28px;
+}
+
+
+.boosik-header , .restaurant-header {
+	font-size: 30px;
+	line-height: 144%;
+	color: #1F1F1F;
+}
+
+
+.boosik-description {
+	margin-bottom: 47px;
+}
+
+
+
+.boosik-description, .restaurant-description {
+	font-size: 24px;
+	line-height: 144%;
+	max-width: 1170px;
+	letter-spacing: -0.01em;
+	color: #1F1F1F;
+}
+
+.restaurant-header {
+	margin-bottom: 28px;
+}
+
+
+
+.deliver-img::before {
+	content: "";
+	display: inline-block;
+	width: 53px;
+	height: 73px;
+	padding-left: 53px;
+	background-image: url('../images/icon/courier.svg'); 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	vertical-align: middle; 
+	margin-right: 30px;
+}
+.car-img::before {
+	content: "";
+	display: inline-block;
+	width: 107px;
+	height: 50px;
+	padding-left: 107px;
+	background-image: url('../images/icon/Layer.svg'); 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	vertical-align: bottom; 
+	margin-right: 23px;
+}
+.own-delivery, .boosik-sence {
+	display: flex;
+	flex-direction: column;
+}
+
+.social-networks {
+	padding-right: 10px;
+	padding-top: 6px;
+}
+
+.e-store{
+	padding-bottom: 10px;
+}
+.footer-town-store {
+	display: flex;
+	flex-direction: column;
+	vertical-align: middle;
+}
+
+@media (max-width: 1024px) {
+	
+	.boosik-description, .restaurant-description {
+		font-size: 18px;
+	}
+	.boosik-header, .restaurant-header {
+		font-size: 24px;
+		font-weight: 700;	
+	}
+	.header {    
+	    position: relative;
+	    top: 0;
+	    left: 0;	
+	}
+	.deliver-img::before {
+		width: 48px;
+		height: 65.84px;
+		background-size: contain; 
+		margin-right: 20px;
+	}
+	.car-img::before {	
+		width: 89px;
+		height: 41.91px;
+		background-size: contain;
+		margin-right: 20px; 	
+	}
+	.boosik-header {
+		margin-bottom: 10px;
+	}
+	.description {
+		margin: 37px 0 35px 0;
+		font-size: 36px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header-flex {
+		margin: 0 0 -22px 0;
+	}
+	.boosik-description, .restaurant-description {
+		font-size: 14px;
+	}
+	.boosik-header, .restaurant-header {
+		font-size: 18px;
+		font-weight: 700;
+		margin: 0 0 16px 0;
+	}
+	.header {    
+	    position: fixed;
+	    top: 0;
+	    left: 0;	
+	}
+	.description {
+		margin: 50px 0 18px 0;
+		font-size: 24px;
+	}
+	.boosik-header {
+		margin-bottom: 10px;
+	}
+	.deliver-img::before {
+		width: 35.72px;
+		height: 49px;
+		background-size: contain; 
+		margin-right: 10px;
+	}
+	.car-img::before {	
+		width: 57.34px;
+		height: 27px;
+		background-size: contain; 
+		margin-right: -15px;	
+	}
+}
