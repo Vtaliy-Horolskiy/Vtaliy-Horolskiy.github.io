@@ -1237,13 +1237,13 @@
     }
     .catalog-products__item-btn{
         position: fixed;
-        bottom: 0;
-        left: 0;
+        bottom: 10px;
+        /*left: 0;
         right: 0;
+        padding: 0;*/
         z-index: 80;
-        padding: 0;
     }
     .catalog-products__item-btn .restaurant-card-order__submit{
-        border-radius: 0;
+        /*border-radius: 0;*/
     }
 }
