@@ -536,4 +536,14 @@ div.order-detail.no-fixed{
         z-index: 50;
         top: 0;
     }
+    .order-page header{
+        position:relative;
+    }
+    .order-page .content{
+        box-shadow:none;
+        top:0;
+    }
+    .order-page .header-container--fix{
+        padding:0;
+    }
 }
