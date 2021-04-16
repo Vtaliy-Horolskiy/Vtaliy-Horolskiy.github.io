@@ -536,7 +536,7 @@ div.order-detail.no-fixed{
         z-index: 50;
         top: 0;
     }
-    .order-page header{
+    .order-page .header{
         position:relative;
     }
     .order-page .content{
