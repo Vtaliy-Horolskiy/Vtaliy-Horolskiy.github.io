@@ -508,6 +508,12 @@ div.order-detail.no-fixed{
     }
     .order-btn-wrap{
         padding: 0 15px;
+        position:fixed;
+        bottom:10px;
+        left:0;
+        right:0;
+        margin:0 auto;
+        z-index:50;
     }
     .order-card{
         margin: 0 0 25px;
